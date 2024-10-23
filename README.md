@@ -1,4 +1,4 @@
-# ArvoreDeDecisao
+# Arvore de decisão
 Este projeto implementa um classificador de árvore de decisão utilizando o conjunto de dados Iris, um dos mais populares datasets de classificação em machine learning. O objetivo é explorar a acurácia e o desempenho do modelo ao ajustar diferentes parâmetros, como a profundidade máxima da árvore (max_depth) e o critério de divisão (gini ou entropy).
 
 #Visão Geral
