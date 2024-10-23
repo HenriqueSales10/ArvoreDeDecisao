@@ -6,6 +6,7 @@ O conjunto de dados Iris contém 150 amostras de flores de íris, classificadas 
 - Setosa
 - Versicolor
 - Virginica
+  
 Cada amostra contém 4 características:
 - Comprimento da sépala
 - Largura da sépala
