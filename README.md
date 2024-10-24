@@ -68,13 +68,5 @@ Avaliação do modelo:
 
 ![image](https://github.com/user-attachments/assets/e7e8ca72-c43d-4754-be32-a5becc82479c)
 
-Conclusão dos testes alterando o max_depth:
-Reduzir a profundidade máxima (max_depth) da árvore para pode ajudar a evitar overfitting e tornar o modelo mais simples e rápido, mas isso vem ao custo de não capturar todas as nuances dos dados. No caso do Iris Dataset, conseguimos uma árvore bem interpretável, mas, dependendo do conjunto de dados e do problema, uma profundidade maior pode ser necessária para garantir uma boa performance.
-
-Alterar o max_depth para 10 por exemplo, vai permitir que a árvore faça mais divisões e se ajuste mais aos dados de treino, o que pode aumentar a acurácia, mas com um risco maior de overfitting. Dependendo da natureza dos dados, pode ser benéfico ajustar esse parâmetro com cautela e realizar validação cruzada para encontrar o equilíbrio ideal entre a capacidade do modelo e a generalização.
-
-Conclusão alterando o 'criterion':
-Ambos os critérios (gini e entropy) resultaram em árvores de decisão que conseguiram classificar perfeitamente os dados de teste. Visualmente, as árvores são quase idênticas em termos das decisões tomadas, pois utilizaram os mesmos atributos para as divisões principais.
-
-Impacto dos parâmetros no desempenho:
-A variação entre gini e entropy em termos de estrutura da árvore foi mínima, o que indica que para este dataset específico, ambos os critérios têm um desempenho equivalente. Isso pode ser devido à simplicidade e ao equilíbrio do dataset Iris.
+#Conclusão
+O dataset utilizado nesta atividade é bastante simples e por este motivo a acurácia foi bastante alta. Um dos problemas deste modelo, é o "Overfitting", como a base é pequena, pode ocorrer um "Vício" em base de dados maiores ocasionando erros/imprecisões no resultado do modelo. 
